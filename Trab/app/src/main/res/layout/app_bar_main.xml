@@ -19,12 +19,14 @@
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:fontFamily="monospace"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-smallcaps"
                 android:textColor="@color/colorBlack"
-                android:text="DeevParty"/>
+                android:text="DeevParty"
+                android:textStyle="bold"
+                android:textSize="20dp" />
 
         </android.support.v7.widget.Toolbar>
 
