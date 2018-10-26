@@ -12,9 +12,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+
+import com.synnapps.carouselview.CarouselView;
+import com.synnapps.carouselview.ImageListener;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+
+    CarouselView carouselView;
+
+    int[] sampleImage = {R.drawable.image_01, R.drawable.image_02, R.drawable.image_03};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +51,17 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         // Tentando criar um scroll page
-
+        carouselView = (CarouselView) findViewById(R.id.carrouselView);
+        carouselView.setPageCount(sampleImage.length);
+        carouselView.setImageListener(imageListener);
     }
+
+    ImageListener imageListener = new ImageListener() {
+        @Override
+        public void setImageForPosition(int position, ImageView imageView) {
+            imageView.setImageResource(sampleImage [position]);
+        }
+    };
 
     @Override
     public void onBackPressed() {
