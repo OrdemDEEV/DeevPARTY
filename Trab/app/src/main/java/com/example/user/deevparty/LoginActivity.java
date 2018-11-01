@@ -32,4 +32,9 @@ public class LoginActivity extends AppCompatActivity {
         Intent it = new Intent(LoginActivity.this, MainActivity.class);
         startActivity(it);
     }
+
+    public void CadastroUsuarioClick(View view) {
+        Intent it = new Intent(LoginActivity.this, CadastroActivity.class);
+        startActivity(it);
+    }
 }
