@@ -5,5 +5,13 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Configurações</string>
+    <string name="navigation_ListarEventos">Listar Eventos</string>
+    <string name="navigation_NovoEvento">Novo Evento</string>
+    <string name="navigation_CalculadoraBebidas">Calculadora de Bebidas</string>
+    <string name="form_login">Login</string>
+    <string name="form_senha">Senha</string>
+    <string name="form_esquecerSenha">Esqueceu a sua Senha?</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="form_cadsatrese">Não possui uma conta? Cadastre-se</string>
 </resources>
