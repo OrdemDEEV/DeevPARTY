@@ -4,8 +4,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CadastroActivity">
+    tools:context=".CadastroActivity"
+    android:background="@drawable/image_login">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastro de Usuários"
+            android:textColor="@color/colorWhit"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhit"
+            android:hint="@string/form_Email"
+            android:height="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:padding="2dp"
+            android:id="@+id/txtEmail"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhit"
+            android:hint="@string/form_Login"
+            android:height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:padding="2dp"
+            android:id="@+id/txtLogin"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhit"
+            android:hint="@string/form_senha"
+            android:height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:padding="2dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhit"
+            android:hint="@string/form_senha"
+            android:height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:padding="2dp"/>
+
+        <Button
+            android:id="@+id/btnEntrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="50dp"
+            android:height="40dp"
+            android:background="@color/colorBordo"
+            android:text="@string/btn_entrar"
+            android:textColor="@color/colorWhit" />
+
+    </LinearLayout>
 
 </ScrollView>
