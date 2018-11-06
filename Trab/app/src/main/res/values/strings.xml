@@ -13,9 +13,11 @@
     <string name="form_senha">Senha</string>
     <string name="form_esquecerSenha">Esqueceu a sua Senha?</string>
     <string name="btn_entrar">Entrar</string>
+    <string name="btn_cadastrar">Cadastrar</string>
     <string name="form_cadsatrese">Não possui uma conta? Cadastre-se</string>
     <string name="form_Email">Informe o seu Email!</string>
     <string name="form_Login">Informe o seu Login!</string>
     <string name="form_Senha">Informe a sua senha!</string>
+    <string name="title_activity_listagem_eventos">ListagemEventosActivity</string>
 
 </resources>
