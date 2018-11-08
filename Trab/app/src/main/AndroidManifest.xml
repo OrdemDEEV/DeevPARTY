@@ -21,6 +21,10 @@
         <activity
             android:name=".ListagemEventosActivity"
             android:label="@string/title_activity_listagem_eventos"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ListagemTiposEventosActivity"
+            android:label="@string/title_activity_listagem_tipos_eventos"
             android:theme="@style/AppTheme"></activity>
     </application>
 
