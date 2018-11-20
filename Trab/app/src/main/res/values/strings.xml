@@ -21,5 +21,6 @@
     <string name="title_activity_listagem_eventos">ListagemEventosActivity</string>
     <string name="title_activity_teste">testeActivity</string>
     <string name="title_activity_listagem_tipos_eventos">ListagemTiposEventosActivity</string>
+    <string name="title_activity_cadastro_eventos">CadastroEventosActivity</string>
 
 </resources>
