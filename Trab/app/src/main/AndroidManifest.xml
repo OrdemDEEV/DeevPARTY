@@ -29,7 +29,7 @@
         <activity
             android:name=".CadastroEventosActivity"
             android:label="@string/title_activity_cadastro_eventos"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

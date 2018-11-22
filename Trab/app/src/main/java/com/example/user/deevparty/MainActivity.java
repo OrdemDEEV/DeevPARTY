@@ -74,6 +74,8 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -121,5 +123,17 @@ public class MainActivity extends AppCompatActivity
     public void EventosCadastradosClick(View view) {
         Intent it = new Intent(MainActivity.this, ListagemEventosActivity.class);
         startActivity(it);
+    }
+
+    public void EventosNovoClick(View view) {
+        Intent it = new Intent(MainActivity.this, ListagemTiposEventosActivity.class);
+        startActivity(it);
+    }
+
+    public void CalculadoraClick(View view) {
+        Intent i = new Intent();
+        i.setAction(Intent.ACTION_MAIN);
+        i.addCategory(Intent.CATEGORY_APP_CALCULATOR);
+        startActivity(i);
     }
 }

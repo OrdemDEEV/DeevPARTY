@@ -64,6 +64,7 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="150dp"
                             android:layout_marginTop="20dp"
+                            android:onClick="EventosNovoClick"
                             android:text="Cadastrar Novo Evento"
                             android:textSize="18dp"
                             android:textStyle="bold" />
@@ -117,6 +118,7 @@
                             android:layout_height="match_parent"
                             android:layout_marginLeft="150dp"
                             android:layout_marginTop="20dp"
+                            android:onClick="CalculadoraClick"
                             android:text="Calculadora de Bebidas"
                             android:textSize="18dp"
                             android:textStyle="bold" />

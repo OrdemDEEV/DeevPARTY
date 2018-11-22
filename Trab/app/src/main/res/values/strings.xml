@@ -22,5 +22,13 @@
     <string name="title_activity_teste">testeActivity</string>
     <string name="title_activity_listagem_tipos_eventos">ListagemTiposEventosActivity</string>
     <string name="title_activity_cadastro_eventos">CadastroEventosActivity</string>
-
+    <string name="btnCasamento">Casamento</string>
+    <string name="btnChurrasco">Churrasco</string>
+    <string name="btnFesta15">Festa 15 Anos</string>
+    <string name="btnEmpresarial"> Empresarial</string>
+    <string name="btnInfantil">Festa Infantil</string>
+    <string name="btnAniversario">Aniversario</string>
+    <string name="btnGeral">Festa em Geral</string>
+    <string name="btnFormatura">Formatura</string>
+    <string name="title_activity_calculator">Calculator</string>
 </resources>
